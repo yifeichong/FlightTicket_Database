@@ -1,0 +1,1567 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$150000$7dZAte2wXF1A$hwxhBj8GS5EpDESabrbZDbAQ6Bld+0eP4+Rr0lIB3XA=",
+        "last_login": "2019-05-24T19:23:41.302",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2017-04-01T17:32:21",
+        "groups": [],
+        "user_permissions": [
+            [
+                "add_logentry",
+                "admin",
+                "logentry"
+            ],
+            [
+                "change_logentry",
+                "admin",
+                "logentry"
+            ],
+            [
+                "delete_logentry",
+                "admin",
+                "logentry"
+            ],
+            [
+                "view_logentry",
+                "admin",
+                "logentry"
+            ],
+            [
+                "add_group",
+                "auth",
+                "group"
+            ],
+            [
+                "change_group",
+                "auth",
+                "group"
+            ],
+            [
+                "delete_group",
+                "auth",
+                "group"
+            ],
+            [
+                "view_group",
+                "auth",
+                "group"
+            ],
+            [
+                "add_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "change_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "delete_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "view_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "add_user",
+                "auth",
+                "user"
+            ],
+            [
+                "change_user",
+                "auth",
+                "user"
+            ],
+            [
+                "delete_user",
+                "auth",
+                "user"
+            ],
+            [
+                "view_user",
+                "auth",
+                "user"
+            ],
+            [
+                "add_flight",
+                "booksystem",
+                "flight"
+            ],
+            [
+                "change_flight",
+                "booksystem",
+                "flight"
+            ],
+            [
+                "delete_flight",
+                "booksystem",
+                "flight"
+            ],
+            [
+                "view_flight",
+                "booksystem",
+                "flight"
+            ],
+            [
+                "add_contenttype",
+                "contenttypes",
+                "contenttype"
+            ],
+            [
+                "change_contenttype",
+                "contenttypes",
+                "contenttype"
+            ],
+            [
+                "delete_contenttype",
+                "contenttypes",
+                "contenttype"
+            ],
+            [
+                "view_contenttype",
+                "contenttypes",
+                "contenttype"
+            ],
+            [
+                "add_session",
+                "sessions",
+                "session"
+            ],
+            [
+                "change_session",
+                "sessions",
+                "session"
+            ],
+            [
+                "delete_session",
+                "sessions",
+                "session"
+            ],
+            [
+                "view_session",
+                "sessions",
+                "session"
+            ]
+        ]
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$150000$mUqgD9NKrIL4$UTJinhI8k6RkjrLnl8cmNXwa6UviSwIsLJraZ77Z2BU=",
+        "last_login": "2019-05-24T19:20:15.792",
+        "is_superuser": false,
+        "username": "1",
+        "first_name": "",
+        "last_name": "",
+        "email": "169506187@qq.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2019-05-24T12:06:31.246",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$150000$SKTd9HFrVgIn$8DkKkzWqXItFTfPVC9x0fWGX1GKVTTm6I5+hLqyIWrI=",
+        "last_login": "2019-05-24T19:20:55.332",
+        "is_superuser": false,
+        "username": "2",
+        "first_name": "",
+        "last_name": "",
+        "email": "123@qq.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2019-05-24T16:30:29.217",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "2jnbtxsf5cg44jpqbyw4v7c8hjreexj0",
+    "fields": {
+        "session_data": "ZmRjMjg3ZTQwMWZiZjZhNThkOWNiZjg4NjMyZGMyNWRhYjE1NjZjNzp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9oYXNoIjoiMjBmZDcyMzU5NTZlOGQ2NWM1ODQ3YmRhYzUxOGI1Njg2NTg0YjcwNSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIn0=",
+        "expire_date": "2017-04-15T17:32:40.583"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "81if7ih50y9vnj4jb9sh9mlbtdpiji7q",
+    "fields": {
+        "session_data": "YzNhNWMyNzUwYTQxZTFjMzZlNzJiMTU1NTZmY2IwMGE2NDhmZDc3Zjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI3MTRhMGE5MDVjN2NjMWQ4YjliODNkZmI4ZTIyNjBjZGRiMzlhOGUzIn0=",
+        "expire_date": "2019-06-07T17:36:11.180"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "8p4jknonr1aighrftunnsfim2h0jf9te",
+    "fields": {
+        "session_data": "ZGQxMjc3YTBhMzMzZWZmNzRiNzBlNmY4ODQ0NzQwNjIyMWIyZjUxMzp7Il9hdXRoX3VzZXJfaGFzaCI6IjIwZmQ3MjM1OTU2ZThkNjVjNTg0N2JkYWM1MThiNTY4NjU4NGI3MDUiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+        "expire_date": "2017-04-15T17:45:13.691"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "9dbigu58k0h2t22js2rz6ghbi7tq6mit",
+    "fields": {
+        "session_data": "MmRiZTNlOTQ0OTE5OTk2ZGE4NjY5MTU3MzZiYTU0NGZmZDIzOWMzMTp7Il9hdXRoX3VzZXJfaWQiOiIzIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI2ZGZkMzkwMmRlZjQ2YzZjN2I0YWM0MGNmNjkxNjcyNWIwZmRhNTU2In0=",
+        "expire_date": "2019-06-07T18:30:01.775"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "hr0lmon252zccifn5jml712lyi8x3zhk",
+    "fields": {
+        "session_data": "MmRiZTNlOTQ0OTE5OTk2ZGE4NjY5MTU3MzZiYTU0NGZmZDIzOWMzMTp7Il9hdXRoX3VzZXJfaWQiOiIzIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI2ZGZkMzkwMmRlZjQ2YzZjN2I0YWM0MGNmNjkxNjcyNWIwZmRhNTU2In0=",
+        "expire_date": "2019-06-07T19:08:14.692"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "jc4v4krh0akc84tcagzqwbem4vsaezqw",
+    "fields": {
+        "session_data": "YzhhZDg1ODVlZWVkM2JkMTdlMDJhNmY2YTdlOGNlNGQ4NzNhZjFhMzp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiMjBmZDcyMzU5NTZlOGQ2NWM1ODQ3YmRhYzUxOGI1Njg2NTg0YjcwNSIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+        "expire_date": "2017-04-18T11:45:35.376"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "kq4ckwwxen17rgxod7z4ljacr6ly4ba4",
+    "fields": {
+        "session_data": "ZGQxMjc3YTBhMzMzZWZmNzRiNzBlNmY4ODQ0NzQwNjIyMWIyZjUxMzp7Il9hdXRoX3VzZXJfaGFzaCI6IjIwZmQ3MjM1OTU2ZThkNjVjNTg0N2JkYWM1MThiNTY4NjU4NGI3MDUiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+        "expire_date": "2017-04-20T23:27:38.169"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "qf1uv8sngv52arccg33cz8qgroij8eph",
+    "fields": {
+        "session_data": "Yzk3OTY3N2E4YTZkZjczNDg4Y2FmMjFkOGQzNGU2MTM3MWYxNjMyYzp7Il9hdXRoX3VzZXJfaGFzaCI6IjIwZmQ3MjM1OTU2ZThkNjVjNTg0N2JkYWM1MThiNTY4NjU4NGI3MDUiLCJfYXV0aF91c2VyX2lkIjoiMSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIn0=",
+        "expire_date": "2017-04-16T02:50:36.332"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ql1u0gpp8z6r0zet5fxcp3fc8076frlu",
+    "fields": {
+        "session_data": "ZmI2MGQ1NTBkZTJjNDIxN2NjOTE4OWQ0Yjk0MTI5OTNkYWI2MmQyNzp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjEiLCJfYXV0aF91c2VyX2hhc2giOiIyMGZkNzIzNTk1NmU4ZDY1YzU4NDdiZGFjNTE4YjU2ODY1ODRiNzA1In0=",
+        "expire_date": "2017-04-19T08:24:12.541"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "yv0p5biwwnbgfihw7tjrgxvc9qznej6l",
+    "fields": {
+        "session_data": "YzhhZDg1ODVlZWVkM2JkMTdlMDJhNmY2YTdlOGNlNGQ4NzNhZjFhMzp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiMjBmZDcyMzU5NTZlOGQ2NWM1ODQ3YmRhYzUxOGI1Njg2NTg0YjcwNSIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+        "expire_date": "2017-04-18T10:06:45.850"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "z6tjar565t5a84ngu95suzq72w8wr9q5",
+    "fields": {
+        "session_data": "YzNhNWMyNzUwYTQxZTFjMzZlNzJiMTU1NTZmY2IwMGE2NDhmZDc3Zjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI3MTRhMGE5MDVjN2NjMWQ4YjliODNkZmI4ZTIyNjBjZGRiMzlhOGUzIn0=",
+        "expire_date": "2019-06-07T19:23:41.340"
+    }
+},
+{
+    "model": "booksystem.flight",
+    "pk": 1,
+    "fields": {
+        "name": "\u5357\u65b9\u822a\u7a7aCZ3123",
+        "leave_city": "\u957f\u6c99",
+        "arrive_city": "\u5317\u4eac",
+        "leave_airport": "\u9ec4\u82b1\u56fd\u9645\u673a\u573aT2",
+        "arrive_airport": "\u9996\u90fd\u56fd\u9645\u673a\u573aT2",
+        "leave_time": "2017-04-02T07:30:00",
+        "arrive_time": "2017-04-02T09:45:00",
+        "capacity": 98,
+        "price": 890.0,
+        "book_sum": 2,
+        "income": 1780.0,
+        "user": [
+            [
+                "admin"
+            ],
+            [
+                "1"
+            ]
+        ]
+    }
+},
+{
+    "model": "booksystem.flight",
+    "pk": 2,
+    "fields": {
+        "name": "\u4e2d\u56fd\u56fd\u822aCA1350",
+        "leave_city": "\u957f\u6c99",
+        "arrive_city": "\u5317\u4eac",
+        "leave_airport": "\u9ec4\u82b1\u56fd\u9645\u673a\u573aT2",
+        "arrive_airport": "\u9996\u90fd\u56fd\u9645\u673a\u573aT3",
+        "leave_time": "2017-04-02T08:35:00",
+        "arrive_time": "2017-04-02T10:55:00",
+        "capacity": 98,
+        "price": 1410.0,
+        "book_sum": 2,
+        "income": 2820.0,
+        "user": [
+            [
+                "admin"
+            ],
+            [
+                "2"
+            ]
+        ]
+    }
+},
+{
+    "model": "booksystem.flight",
+    "pk": 3,
+    "fields": {
+        "name": "\u53a6\u95e8\u822a\u7a7aMF8147",
+        "leave_city": "\u957f\u6c99",
+        "arrive_city": "\u5317\u4eac",
+        "leave_airport": "\u9ec4\u82b1\u56fd\u9645\u673a\u573aT2",
+        "arrive_airport": "\u9996\u90fd\u56fd\u9645\u673a\u573aT2",
+        "leave_time": "2017-04-02T18:50:00",
+        "arrive_time": "2017-04-02T21:05:00",
+        "capacity": 99,
+        "price": 1080.0,
+        "book_sum": 1,
+        "income": 1080.0,
+        "user": [
+            [
+                "admin"
+            ]
+        ]
+    }
+},
+{
+    "model": "booksystem.flight",
+    "pk": 4,
+    "fields": {
+        "name": "\u6d77\u5357\u822a\u7a7aHU7636",
+        "leave_city": "\u957f\u6c99",
+        "arrive_city": "\u5317\u4eac",
+        "leave_airport": "\u9ec4\u82b1\u56fd\u9645\u673a\u573aT2",
+        "arrive_airport": "\u9996\u90fd\u56fd\u9645\u673a\u573aT1",
+        "leave_time": "2017-04-02T11:20:00",
+        "arrive_time": "2017-04-02T13:40:00",
+        "capacity": 99,
+        "price": 910.0,
+        "book_sum": 1,
+        "income": 910.0,
+        "user": []
+    }
+},
+{
+    "model": "booksystem.flight",
+    "pk": 5,
+    "fields": {
+        "name": "\u6d77\u5357\u822a\u7a7aHU7815",
+        "leave_city": "\u957f\u6c99",
+        "arrive_city": "\u4e0a\u6d77",
+        "leave_airport": "\u9ec4\u82b1\u56fd\u9645\u673a\u573aT2",
+        "arrive_airport": "\u6d66\u4e1c\u56fd\u9645\u673a\u573aT2",
+        "leave_time": "2017-04-02T07:55:00",
+        "arrive_time": "2017-04-02T09:55:00",
+        "capacity": 100,
+        "price": 480.0,
+        "book_sum": 0,
+        "income": 0.0,
+        "user": []
+    }
+},
+{
+    "model": "booksystem.flight",
+    "pk": 6,
+    "fields": {
+        "name": "\u4e1c\u65b9\u822a\u7a7aMU5368",
+        "leave_city": "\u957f\u6c99",
+        "arrive_city": "\u4e0a\u6d77",
+        "leave_airport": "\u9ec4\u82b1\u56fd\u9645\u673a\u573aT2",
+        "arrive_airport": "\u6d66\u4e1c\u56fd\u9645\u673a\u573aT1",
+        "leave_time": "2017-04-02T08:10:00",
+        "arrive_time": "2017-04-02T09:55:00",
+        "capacity": 100,
+        "price": 590.0,
+        "book_sum": 0,
+        "income": 0.0,
+        "user": []
+    }
+},
+{
+    "model": "booksystem.flight",
+    "pk": 7,
+    "fields": {
+        "name": "\u5357\u65b9\u822a\u7a7aCZ9646",
+        "leave_city": "\u957f\u6c99",
+        "arrive_city": "\u4e0a\u6d77",
+        "leave_airport": "\u9ec4\u82b1\u56fd\u9645\u673a\u573aT2",
+        "arrive_airport": "\u8679\u6865\u56fd\u9645\u673a\u573aT2",
+        "leave_time": "2017-04-02T10:00:00",
+        "arrive_time": "2017-04-02T11:45:00",
+        "capacity": 100,
+        "price": 870.0,
+        "book_sum": 0,
+        "income": 0.0,
+        "user": []
+    }
+},
+{
+    "model": "booksystem.flight",
+    "pk": 8,
+    "fields": {
+        "name": "\u5409\u7965\u822a\u7a7aHO1124",
+        "leave_city": "\u957f\u6c99",
+        "arrive_city": "\u4e0a\u6d77",
+        "leave_airport": "\u9ec4\u82b1\u56fd\u9645\u673a\u573aT2",
+        "arrive_airport": "\u8679\u6865\u56fd\u9645\u673a\u573aT2",
+        "leave_time": "2017-04-02T10:05:00",
+        "arrive_time": "2017-04-02T11:50:00",
+        "capacity": 100,
+        "price": 680.0,
+        "book_sum": 0,
+        "income": 0.0,
+        "user": []
+    }
+},
+{
+    "model": "booksystem.flight",
+    "pk": 9,
+    "fields": {
+        "name": "\u5357\u65b9\u822a\u7a7aCZ332",
+        "leave_city": "\u957f\u6c99",
+        "arrive_city": "\u5e7f\u5dde",
+        "leave_airport": "\u9ec4\u82b1\u56fd\u9645\u673a\u573aT2",
+        "arrive_airport": "\u767d\u4e91\u56fd\u9645\u673a\u573a",
+        "leave_time": "2017-04-02T08:15:00",
+        "arrive_time": "2017-04-02T09:35:00",
+        "capacity": 100,
+        "price": 370.0,
+        "book_sum": 0,
+        "income": 0.0,
+        "user": []
+    }
+},
+{
+    "model": "booksystem.flight",
+    "pk": 10,
+    "fields": {
+        "name": "\u5357\u65b9\u822a\u7a7aCZ3387",
+        "leave_city": "\u957f\u6c99",
+        "arrive_city": "\u5e7f\u5dde",
+        "leave_airport": "\u9ec4\u82b1\u56fd\u9645\u673a\u573aT2",
+        "arrive_airport": "\u767d\u4e91\u56fd\u9645\u673a\u573a",
+        "leave_time": "2017-04-02T09:15:00",
+        "arrive_time": "2017-04-02T10:35:00",
+        "capacity": 100,
+        "price": 490.0,
+        "book_sum": 0,
+        "income": 0.0,
+        "user": []
+    }
+},
+{
+    "model": "booksystem.flight",
+    "pk": 11,
+    "fields": {
+        "name": "\u56db\u5ddd\u822a\u7a7a3U8998",
+        "leave_city": "\u957f\u6c99",
+        "arrive_city": "\u6210\u90fd",
+        "leave_airport": "\u9ec4\u82b1\u56fd\u9645\u673a\u573aT2",
+        "arrive_airport": "\u53cc\u6d41\u56fd\u9645\u673a\u573aT1",
+        "leave_time": "2017-04-02T14:25:00",
+        "arrive_time": "2017-04-02T16:25:00",
+        "capacity": 100,
+        "price": 1110.0,
+        "book_sum": 0,
+        "income": 0.0,
+        "user": []
+    }
+},
+{
+    "model": "booksystem.flight",
+    "pk": 12,
+    "fields": {
+        "name": "\u5965\u51ef\u822a\u7a7aBK2779",
+        "leave_city": "\u957f\u6c99",
+        "arrive_city": "\u6210\u90fd",
+        "leave_airport": "\u9ec4\u82b1\u56fd\u9645\u673a\u573aT2",
+        "arrive_airport": "\u53cc\u6d41\u56fd\u9645\u673a\u573aT2",
+        "leave_time": "2017-04-02T19:00:00",
+        "arrive_time": "2017-04-02T20:50:00",
+        "capacity": 100,
+        "price": 983.0,
+        "book_sum": 0,
+        "income": 0.0,
+        "user": []
+    }
+},
+{
+    "model": "booksystem.flight",
+    "pk": 13,
+    "fields": {
+        "name": "\u5357\u65b9\u822a\u7a7aCZ3721",
+        "leave_city": "\u957f\u6c99",
+        "arrive_city": "\u897f\u5b89",
+        "leave_airport": "\u9ec4\u82b1\u56fd\u9645\u673a\u573aT2",
+        "arrive_airport": "\u54b8\u9633\u56fd\u9645\u673a\u573aT3",
+        "leave_time": "2017-04-02T08:05:00",
+        "arrive_time": "2017-04-02T09:50:00",
+        "capacity": 100,
+        "price": 470.0,
+        "book_sum": 0,
+        "income": 0.0,
+        "user": []
+    }
+},
+{
+    "model": "booksystem.flight",
+    "pk": 14,
+    "fields": {
+        "name": "\u4e1c\u65b9\u822a\u7a7aMU2384",
+        "leave_city": "\u957f\u6c99",
+        "arrive_city": "\u897f\u5b89",
+        "leave_airport": "\u9ec4\u82b1\u56fd\u9645\u673a\u573aT2",
+        "arrive_airport": "\u54b8\u9633\u56fd\u9645\u673a\u573aT3",
+        "leave_time": "2017-04-02T20:20:00",
+        "arrive_time": "2017-04-02T22:15:00",
+        "capacity": 100,
+        "price": 420.0,
+        "book_sum": 0,
+        "income": 0.0,
+        "user": []
+    }
+},
+{
+    "model": "booksystem.flight",
+    "pk": 15,
+    "fields": {
+        "name": "\u53a6\u95e8\u822a\u7a7aMF8503",
+        "leave_city": "\u957f\u6c99",
+        "arrive_city": "\u53a6\u95e8",
+        "leave_airport": "\u9ec4\u82b1\u56fd\u9645\u673a\u573aT2",
+        "arrive_airport": "\u9ad8\u5d0e\u56fd\u9645\u673a\u573aT3",
+        "leave_time": "2017-04-02T07:25:00",
+        "arrive_time": "2017-04-02T08:55:00",
+        "capacity": 100,
+        "price": 1050.0,
+        "book_sum": 0,
+        "income": 0.0,
+        "user": []
+    }
+},
+{
+    "model": "booksystem.flight",
+    "pk": 16,
+    "fields": {
+        "name": "\u5c71\u4e1c\u822a\u7a7aSC4786",
+        "leave_city": "\u957f\u6c99",
+        "arrive_city": "\u53a6\u95e8",
+        "leave_airport": "\u9ec4\u82b1\u56fd\u9645\u673a\u573aT2",
+        "arrive_airport": "\u9ad8\u5d0e\u56fd\u9645\u673a\u573aT4",
+        "leave_time": "2017-04-02T09:30:00",
+        "arrive_time": "2017-04-02T10:55:00",
+        "capacity": 100,
+        "price": 438.0,
+        "book_sum": 0,
+        "income": 0.0,
+        "user": []
+    }
+},
+{
+    "model": "booksystem.flight",
+    "pk": 18,
+    "fields": {
+        "name": "\u5357\u65b9\u822a\u7a7aCZ3123",
+        "leave_city": "\u957f\u6c99",
+        "arrive_city": "\u5317\u4eac",
+        "leave_airport": "\u9ec4\u82b1\u56fd\u9645\u673a\u573aT2",
+        "arrive_airport": "\u9996\u90fd\u56fd\u9645\u673a\u573aT2",
+        "leave_time": "2017-04-07T07:30:00",
+        "arrive_time": "2017-04-07T09:45:00",
+        "capacity": 100,
+        "price": 1030.0,
+        "book_sum": 0,
+        "income": 0.0,
+        "user": []
+    }
+},
+{
+    "model": "booksystem.flight",
+    "pk": 19,
+    "fields": {
+        "name": "\u53a6\u95e8\u822a\u7a7aMF8147",
+        "leave_city": "\u957f\u6c99",
+        "arrive_city": "\u5317\u4eac",
+        "leave_airport": "\u9ec4\u82b1\u56fd\u9645\u673a\u573aT2",
+        "arrive_airport": "\u9996\u90fd\u56fd\u9645\u673a\u573aT2",
+        "leave_time": "2017-04-07T18:50:00",
+        "arrive_time": "2017-04-07T21:05:00",
+        "capacity": 100,
+        "price": 895.0,
+        "book_sum": 0,
+        "income": 0.0,
+        "user": []
+    }
+},
+{
+    "model": "booksystem.flight",
+    "pk": 20,
+    "fields": {
+        "name": "\u6d77\u5357\u822a\u7a7aHU7815",
+        "leave_city": "\u6b66\u6c49",
+        "arrive_city": "\u4e0a\u6d77",
+        "leave_airport": "\u6b66\u6c49\u5929\u6cb3\u673a\u573aT1",
+        "arrive_airport": "\u6d66\u4e1c\u56fd\u9645\u673a\u573aT2",
+        "leave_time": "2019-05-24T07:55:00",
+        "arrive_time": "2019-05-24T09:55:00",
+        "capacity": 0,
+        "price": 480.0,
+        "book_sum": 3,
+        "income": 1440.0,
+        "user": [
+            [
+                "admin"
+            ],
+            [
+                "1"
+            ]
+        ]
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2017-04-01T17:35:15.251",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "1",
+        "object_repr": "\u5357\u65b9\u822a\u7a7aCZ3969",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2017-04-01T17:36:29.147",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "2",
+        "object_repr": "\u5409\u7965\u822a\u7a7aHO1072",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2017-04-01T17:37:36.010",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "3",
+        "object_repr": "\u6d77\u5357\u822a\u7a7aHU7815",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2017-04-01T17:38:51.765",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "4",
+        "object_repr": "\u5357\u65b9\u822a\u7a7aCZ3240",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2017-04-01T17:42:42.123",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "5",
+        "object_repr": "\u4e1c\u65b9\u822a\u7a7aMU5368",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2017-04-01T17:48:25.337",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "3",
+        "object_repr": "\u6d77\u5357\u822a\u7a7aHU7815",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2017-04-01T17:49:23.590",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "3",
+        "object_repr": "\u6d77\u5357\u822a\u7a7aHU7815",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2017-04-01T17:53:55.913",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "5",
+        "object_repr": "\u4e1c\u65b9\u822a\u7a7aMU5368",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2017-04-02T02:01:45.891",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "6",
+        "object_repr": "\u6d77\u5357\u822a\u7a7aHU7136",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2017-04-02T02:09:57.692",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "7",
+        "object_repr": "\u5357\u65b9\u822a\u7a7aCZ3123",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2017-04-02T02:10:41.624",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "7",
+        "object_repr": "\u5357\u65b9\u822a\u7a7aCZ3123",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2017-04-02T02:10:41.630",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "6",
+        "object_repr": "\u6d77\u5357\u822a\u7a7aHU7136",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2017-04-02T02:10:41.633",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "5",
+        "object_repr": "\u4e1c\u65b9\u822a\u7a7aMU5368",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2017-04-02T02:10:41.637",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "4",
+        "object_repr": "\u5357\u65b9\u822a\u7a7aCZ3240",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2017-04-02T02:10:41.640",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "3",
+        "object_repr": "\u6d77\u5357\u822a\u7a7aHU7815",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2017-04-02T02:10:41.642",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "2",
+        "object_repr": "\u5409\u7965\u822a\u7a7aHO1072",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2017-04-02T02:10:41.644",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "1",
+        "object_repr": "\u5357\u65b9\u822a\u7a7aCZ3969",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2017-04-02T02:11:47.583",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "8",
+        "object_repr": "\u5357\u65b9\u822a\u7a7aCZ3123",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2017-04-02T02:12:53.799",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "9",
+        "object_repr": "\u4e2d\u56fd\u56fd\u822aCA1350",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2017-04-02T02:14:05.911",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "10",
+        "object_repr": "\u5357\u65b9\u822a\u7a7aCZ3717",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2017-04-02T02:25:01.068",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "1",
+        "object_repr": "\u5357\u65b9\u822a\u7a7aCZ3123",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2017-04-02T02:26:09.418",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "2",
+        "object_repr": "\u4e2d\u56fd\u56fd\u822aCA1350",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2017-04-02T02:27:10.297",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "3",
+        "object_repr": "\u53a6\u95e8\u822a\u7a7aMF8147",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2017-04-02T02:28:20.415",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "4",
+        "object_repr": "\u6d77\u5357\u822a\u7a7aHU7636",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2017-04-02T02:31:16.666",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "5",
+        "object_repr": "\u6d77\u5357\u822a\u7a7aHU7815",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2017-04-02T02:32:10.160",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "6",
+        "object_repr": "\u4e1c\u65b9\u822a\u7a7aMU5368",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2017-04-02T02:33:38.921",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "7",
+        "object_repr": "\u5357\u65b9\u822a\u7a7aCZ9646",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2017-04-02T02:34:21.608",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "8",
+        "object_repr": "\u5409\u7965\u822a\u7a7aHO1124",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2017-04-02T02:35:53.400",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "9",
+        "object_repr": "\u65b9\u822a\u7a7aCZ332",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2017-04-02T02:36:38.999",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "10",
+        "object_repr": "\u5357\u65b9\u822a\u7a7aCZ3387",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2017-04-02T02:40:51.058",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "11",
+        "object_repr": "\u56db\u5ddd\u822a\u7a7a3U8998",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2017-04-02T02:41:48.349",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "12",
+        "object_repr": "\u5965\u51ef\u822a\u7a7aBK2779",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2017-04-02T02:43:11.240",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "13",
+        "object_repr": "\u5357\u65b9\u822a\u7a7aCZ3721",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2017-04-02T02:44:25.328",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "14",
+        "object_repr": "\u4e1c\u65b9\u822a\u7a7aMU2384",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2017-04-02T02:47:03.840",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "15",
+        "object_repr": "\u53a6\u95e8\u822a\u7a7aMF8503",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2017-04-02T02:48:35.027",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "16",
+        "object_repr": "\u5c71\u4e1c\u822a\u7a7aSC4786",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2017-04-02T02:48:42.421",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "15",
+        "object_repr": "\u53a6\u95e8\u822a\u7a7aMF8503",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"arrive_city\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2017-04-02T02:50:42.565",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "9",
+        "object_repr": "\u5357\u65b9\u822a\u7a7aCZ332",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2017-04-02T22:39:27.414",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "2",
+        "object_repr": "\u4e2d\u56fd\u56fd\u822aCA1350",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"capacity\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2017-04-02T22:42:39.244",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "2",
+        "object_repr": "\u4e2d\u56fd\u56fd\u822aCA1350",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"capacity\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2017-04-04T13:00:25.338",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "18",
+        "object_repr": "\u5357\u65b9\u822a\u7a7aCZ3123",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2017-04-04T13:01:27.533",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "19",
+        "object_repr": "\u53a6\u95e8\u822a\u7a7aMF8147",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2017-04-04T13:04:57.725",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "20",
+        "object_repr": "\u6d77\u5357\u822a\u7a7aHU7815",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2017-04-04T17:58:29.605",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "3",
+        "object_repr": "passenger1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"username\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2017-04-04T17:58:43.680",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "3",
+        "object_repr": "\u7528\u62371",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"username\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2019-05-24T17:35:47.815",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "6",
+        "object_repr": "root",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2019-05-24T17:35:47.853",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "4",
+        "object_repr": "xxg",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2019-05-24T19:16:29.979",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "20",
+        "object_repr": "\u6d77\u5357\u822a\u7a7aHU7815",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"leave_airport\", \"leave_time\", \"arrive_time\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2019-05-24T19:16:45.969",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "20",
+        "object_repr": "\u6d77\u5357\u822a\u7a7aHU7815",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"leave_city\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2019-05-24T19:16:48.930",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "20",
+        "object_repr": "\u6d77\u5357\u822a\u7a7aHU7815",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2019-05-24T19:17:10.643",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "booksystem",
+            "flight"
+        ],
+        "object_id": "20",
+        "object_repr": "\u6d77\u5357\u822a\u7a7aHU7815",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"capacity\"]}}]"
+    }
+}
+]

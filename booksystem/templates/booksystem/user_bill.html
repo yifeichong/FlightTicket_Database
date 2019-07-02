@@ -1,0 +1,63 @@
+{% extends 'booksystem/base.html' %}
+
+{% block login_display %}
+    <a href="#">欢迎您 {{ username }} 先生/女士</a>
+{% endblock %}
+
+{% block style %}
+    <style>
+        .main {
+            margin-top: 20px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+    </style>
+{% endblock %}
+
+{% block js %}
+    <script>
+        function refund(flight_id) {
+            var choice = confirm("尊敬的顾客，您确定要退票吗");
+            if (choice == true) {
+                window.location = "/booksystem/refund/flight/" + flight_id;
+            }
+        }
+    </script>
+{% endblock %}
+
+{% block content %}
+
+    <div class="main">
+    	<table class="table table-bordered table-striped">
+                        <thead>
+                        <th style="text-align: center">编号</th>
+                        <th style="text-align: center">创建时间</th>
+                        <th style="text-align: center">旅客</th>
+                        <th style="text-align: center">航班</th>
+                        <th style="text-align: center">路线</th>
+                        <th style="text-align: center">起飞时间</th>
+                        <th style="text-align: center">票价</th>
+                        <th style="text-align: center">支付信息</th>
+                        <th style="text-align: center">取票信息</th>
+                        <th style="text-align: center">退票信息</th>
+                        </thead>
+                        <tbody align="center">
+                        {% for order in order_set %}
+                            <tr>
+                                <td>{{ forloop.counter }}</td>
+                                <td>{{ order.create_time }}</td>
+                                <td>{{ order.passenger_name }}</td>
+                                <td>{{ order.flight_name }}</td>
+                                <td>{{ order.flight_route }}</td>
+                                <td>{{ order.flight_ltime }}</td>
+                                <td>￥{{ order.flight_price }}</td>
+                                <td>{{ order.is_pay }}</td>
+                                <td>{{ order.is_fetch }}</td>
+                                <td>{{ order.is_refund }}</td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+        </table>
+    </div>
+
+{% endblock %}
